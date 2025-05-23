@@ -2,16 +2,17 @@
 
 A computer vision tool to detect and count available parking spaces using static images. Built with OpenCV and designed for simplicity and efficiency.
 
-## 📁 Project Structure
-SmartParkingDetector/
-├── data/                # Folder with input image
-│ └── carParkPos.jpg     # Base parking lot image
-├── park_positions       # Pickle file storing marked slot positions
-├── output/              # (Create manually) For generated results
-│   ├── ParkingCounts_*.xlsx     # Auto-generated Excel report
-│   └── output-image.jpg         # Result image with slot status
-├── ParkingPicker.py           # Tool to manually mark parking slots
-├── ParkingCounter.py   # Detects and counts occupied slots
+📁 SmartParkingDetector/
+├── 📂 data/                       # Input images for processing
+│   └── 🖼️ carParkPos.jpg          # Image of the parking area to annotate
+├── 📂 park_positions/            # Stores slot positions in a pickle file
+│   └── 📦 positions.pkl (e.g.)    # Coordinates of marked parking slots
+├── 📂 output/                    # 💾 Save output here (create manually)
+│   ├── 📊 ParkingCounts_*.xlsx   # Auto-generated report with counts
+│   └── 🖼️ output-image.jpg        # Image with detected occupancy shown
+├── 🛠️ ParkingPicker.py           # GUI tool to manually select parking slots
+├── 📈 ParkingCounter.py          # Main logic for counting parked cars
+
 
 ## 🔧 How It Works
 
