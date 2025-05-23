@@ -2,16 +2,15 @@
 
 A computer vision tool to detect and count available parking spaces using static images. Built with OpenCV and designed for simplicity and efficiency.
 
-📁 SmartParkingDetector/
-├── 📂 data/                       # Input images for processing
-│   └── 🖼️ carParkPos.jpg          # Image of the parking area to annotate
-├── 📂 park_positions/            # Stores slot positions in a pickle file
-│   └── 📦 positions.pkl (e.g.)    # Coordinates of marked parking slots
-├── 📂 output/                    # 💾 Save output here (create manually)
-│   ├── 📊 ParkingCounts_*.xlsx   # Auto-generated report with counts
-│   └── 🖼️ output-image.jpg        # Image with detected occupancy shown
-├── 🛠️ ParkingPicker.py           # GUI tool to manually select parking slots
-├── 📈 ParkingCounter.py          # Main logic for counting parked cars
+📁 SmartParkingDetector/                                                                                                                                                  
+├──  data/                                                                                                                                                                                                                                                                                                          
+│       └──  carParkPos.jpg                                                                                                                  
+├──  park_positions/                                                                                                                                                                                                                       
+├──  output/                                                                                                                    
+│       ├──  parking_counts_YYYYMMDD_HHMMSS.xlsx                                                                                                            
+│       └──  output-image.jpg                                                                                                                        
+├──  ParkingPicker.py                                                                                                                   
+├──  ParkingCounter.py          
 
 
 ## 🔧 How It Works
